@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/style.css">
+  <title>TAILWIND VISIBILITY, ANIMATION & TRANSFORM</title>
+</head>
+
+<body>
+
+  <div class="bg-blue-400 group hover:scale-95 hover:skew-x-3 duration-300">
+    <ul>
+      <li class="group-hover:text-rose-900">elemento 1</li>
+      <li>elemento 2</li>
+      <li>elemento 3</li>
+    </ul>
+  </div>
+  <div class="bg-rose-300 hover:animate-pulse">
+    <ul>
+      <li>elemento 1</li>
+      <li>elemento 2</li>
+      <li>elemento 3</li>
+    </ul>
+  </div>
+  <div class="bg-lime-400">
+    <ul>
+      <li>elemento 1</li>
+      <li>elemento 2</li>
+      <li>elemento 3</li>
+    </ul>
+  </div>
+  <div class="bg-purple-500 invisible">
+    <ul>
+      <li>elemento 1</li>
+      <li>elemento 2</li>
+      <li>elemento 3</li>
+    </ul>
+  </div>
+  <div class="bg-pink-700 animate-bounce">
+    <ul>
+      <li>elemento 1</li>
+      <li>elemento 2</li>
+      <li>elemento 3</li>
+    </ul>
+  </div>
+  <div class="loading flex justify-center">
+    <img class="w-5 animate-spin" src="./resources/plus.png">
+  </div>
+
+</body>
+
+</html>
